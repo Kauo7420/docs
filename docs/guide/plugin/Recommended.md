@@ -1,6 +1,6 @@
 ## 推荐列表
 ### 推荐必装插件
-| **插件名称** | **功能简称** | **功能简介** | **付费****🔴****/免费****🟢****/付费但有免费版本****🟡** |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
 | [SunLight](https://www.spigotmc.org/resources/sunlight-%E2%AD%90-best-essentials-cmi-alternative.67733/) | 基础管理插件 | 这是一个必备的多功能插件套件，包括但不限于玩家管理、聊天系统、家系统、经济系统等。提供了广泛的实用命令，如`/tp`、`/home`、`/spawn`，简化服务器管理，增强玩家互动。而且它是CMI和EssentialsX的完美替代品！ | 免费🟢 |
 | [LuckPerms](https://luckperms.net/) | 权限插件 |  用于管理服务器权限系统，可以设定详细的用户权限等级，以及配置权限节点等一系列操作。 | 免费🟢 |
@@ -12,16 +12,18 @@
 
 
 ### 前置/API接口
-| [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | 变量插件 | 支持统一格式的信息显示，通过超过230个扩展支持Essentials、Factions等插件，下载量超150万次，广泛应用于45,000多台服务器，**是实现变量功能的必备插件。** | 免费🟢 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | 变量插件 | 支持统一格式的信息显示，通过超过230个扩展支持Essentials、Factions等插件，下载量超150万次，广泛应用于45,000多台服务器，**是实现变量功能的必备插件。** | 免费🟢 |
 | [Vault](https://www.spigotmc.org/resources/vault.34315/) | 经济前置API插件 | 一款提供权限、聊天和经济API的插件，简化了其他插件对接各种系统的过程。它支持多种权限插件如Permissions 3、GroupManager等，以及多种经济插件如iConomy、EssentialsEcon等，并兼容多种聊天插件。Vault旨在为插件开发者提供直观易用的接口。 | 免费🟢 |
 | [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) | 数据包操作库插件 | 一款库插件，允许读写Minecraft协议，简化了包的修改过程，减少了因版本更新导致的兼容性问题 | 免费🟢 |
 | [NightCore](https://github.com/nulli0n/nightcore-spigot/releases/latest) | 多功能实用插件 | 开发者所使用的多功能实用插件，提供内部命令与权限管理、配置与语言文件自动生成、GUI创建、SQL数据管理、对象封装及实用工具类等功能，支持JSON消息与自定义文本解析，提升开发效率。一般只在<font style="color:rgb(44, 44, 44);">NightExpress的插件作品中需要用到它。</font> | 免费🟢 |
 
 
 ### 交易系统
-| [XConomy](https://www.spigotmc.org/resources/xconomy.75669/) 或 [Economy++](https://www.spigotmc.org/resources/economy.54958/) | 货币插件 | 提供货币交易、账户管理、税收等功能。建立一个真实的经济体系，增加游戏深度，鼓励玩家之间的互动和贸易。 | 免费🟢 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [XConomy](https://www.spigotmc.org/resources/xconomy.75669/) 或 [Economy++](https://www.spigotmc.org/resources/economy.54958/) | 货币插件 | 提供货币交易、账户管理、税收等功能。建立一个真实的经济体系，增加游戏深度，鼓励玩家之间的互动和贸易。 | 免费🟢 |
 | [CoinsEngine](https://www.spigotmc.org/resources/coinsengine-%E2%AD%90-economy-and-virtual-currencies.84121/) | 多功能货币经济插件 | 无限货币创建、数据迁移、跨服兼容、自定义命令与格式、权限控制、货币兑换等功能。 | 免费🟢 |
 | [ShopGUI+](https://www.spigotmc.org/resources/shopgui-1-8-1-21.6515/)（也可以称之为ShopGUIPlus） | GUI式系统商店插件 | 一个GUI操作式的**系统**商店插件，方便玩家在系统商店~~大赚一笔~~。全GUI式商店，可自由配置商店，以及显示信息等一类的选项。 | 付费🔴 |
 | [PlayerShopGUI+](https://www.spigotmc.org/resources/playershopgui-1-8-1-20.37707/) | GUI式玩家商店插件 | 一个GUI操作式的**玩家**商店插件，玩家可创建自己的商店进行交易活动。建立一个真实的经济体系，增加游戏深度，鼓励玩家之间的互动和贸易。 | 付费🔴 |
@@ -32,8 +34,9 @@
 
 
 ### 服务器改良
-| [WorldGuard](https://dev.bukkit.org/projects/worldguard) | 世界保护插件 | 保护服务器上的特定区域，防止破坏和未经授权的访问。比如保护关键地点，如玩家家园、公共建筑，维护服务器秩序。 | 免费🟢 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [WorldGuard](https://dev.bukkit.org/projects/worldguard) | 世界保护插件 | 保护服务器上的特定区域，防止破坏和未经授权的访问。比如保护关键地点，如玩家家园、公共建筑，维护服务器秩序。 | 免费🟢 |
 | Via三剑客（[ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/)、[ViaBackwards](https://www.spigotmc.org/resources/viabackwards.27448/)、[ViaRewind](https://www.spigotmc.org/resources/viarewind.52109/)） | 跨版本插件 | 允许不同版本的客户端连接至服务器 (1.7.x - 最新版本)。可以增加玩家基数，避免因版本不兼容而失去潜在的玩家。 | 免费🟢 |
 | [WorldEdit](https://dev.bukkit.org/projects/worldedit) | 世界编辑插件（也称“小木斧”插件） | 强大的区块编辑工具，允许玩家快速构建和修改世界。极大地提高了建筑效率，适合大型项目和景观设计。 | 免费🟢 |
 |  [LagFixer](https://www.spigotmc.org/resources/lagfixer-1-16-1-20-6-%E2%9A%A1%EF%B8%8F-best-performance-solution-%E2%AD%95-500-servers-%E2%9C%85-folia-supported.111684/update?update=527298) | 性能优化插件 | 通过调整服务器配置和优化资源使用，减少游戏卡顿。改善服务器响应速度，提供流畅的游戏体验。 | 免费🟢 |
@@ -43,8 +46,9 @@
 
 
 ### 身份验证
-| [MultiLogin](https://www.spigotmc.org/resources/multilogin.91138/) | 外置验证登录插件 | 对正版与多种外置登录共存的支持，用于连接两个或多个外置验证服务器下的玩家。强大的登录服务支持，可以自定义服务配置，拒绝socket假人进服。 | 免费🟢 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [MultiLogin](https://www.spigotmc.org/resources/multilogin.91138/) | 外置验证登录插件 | 对正版与多种外置登录共存的支持，用于连接两个或多个外置验证服务器下的玩家。强大的登录服务支持，可以自定义服务配置，拒绝socket假人进服。 | 免费🟢 |
 | [AuthMe Reloaded](https://www.spigotmc.org/resources/authmereloaded.6269/) | 普通级登录插件 | 玩家登录服务器时需要输入账号密码，保护玩家账户安全。提升服务器安全性，防止未授权访问和账户盗窃。 | 免费🟢 |
 | [nLogin](https://repo.nickuc.com/download?name=nLogin&lang=cn)   **（推荐）** | 史诗级登录插件 | 一个强大又简洁的登录插件，能在不同的服务端（群组服）做到完美兼容。且有官方中文，多平台支持，全自动更新。它的特点就是能区分正版玩家和离线玩家登录，并给其分配对应的前缀名（可配置）。 | 免费🟢 |
 | [Authme ReReloaded](https://www.spigotmc.org/resources/authme-rereloaded-%E2%AD%90-a-reliable-stable-fork-of-authme-login-1-8-1-21-folia-supported.114010/) | 良好级登录插件 | 是`Authme Reloaded`的非官方分支版本，一款增强版登录插件，具有改进的邮件逻辑、防幽灵玩家、基岩版玩家支持、GUI验证码、性能优化及支持简体中文等功能。 | 免费🟢 |
@@ -52,8 +56,9 @@
 
 
 ### 游戏玩法
-| [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) | 技能系统插件 | 付费插件，提供角色技能树，玩家可以通过打怪、挖掘等活动获得经验值，提升技能等级。 | 付费🔴 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) | 技能系统插件 | 付费插件，提供角色技能树，玩家可以通过打怪、挖掘等活动获得经验值，提升技能等级。 | 付费🔴 |
 | [AuraSkills](https://www.spigotmc.org/resources/auraskills-formerly-aurelium-skills.81069/) | 技能系统插件 | 免费插件，类似mcMMO，提供更多样化的技能和更复杂的升级系统。不过这个插件是免费的 | 免费🟢 |
 | [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21.62325/) | 额外动作插件 | 允许玩家坐下，以及增加了更多自然的角色动作，比如坐在玩家头上、趴下、躺下、原地打转等一系列动作。 | 免费🟢 |
 | [Residence](https://zrips.net/Residence/) | 领地插件 | 允许玩家创建和管理私人领地，设置访问权限。可以保护玩家的建筑不受破坏，提供安全的个人空间。 | 付费但有免费版本🟡 |
@@ -68,8 +73,9 @@
 
 
 ### 反作弊/压测
-| [BotSentry](https://www.spigotmc.org/resources/%E2%9A%A1-botsentry-%E2%9A%A1-antibot-antiproxy-resisting-30k-bots-per-second-bungee-spigot-sponge-velocity.55924/) | 反压测插件 | 高效抗机器人插件，抵御DDoS攻击，支持Spigot、BungeeCord等，智能识别玩家与机器人，无需设置，即装即用。 | 付费🔴 |
+| **插件名称** | **功能简称** | **功能简介** | **付费🔴/免费🟢/付费但有免费版本🟡** |
 | --- | --- | --- | --- |
+| [BotSentry](https://www.spigotmc.org/resources/%E2%9A%A1-botsentry-%E2%9A%A1-antibot-antiproxy-resisting-30k-bots-per-second-bungee-spigot-sponge-velocity.55924/) | 反压测插件 | 高效抗机器人插件，抵御DDoS攻击，支持Spigot、BungeeCord等，智能识别玩家与机器人，无需设置，即装即用。 | 付费🔴 |
 | [Ultimate Antibot](https://www.spigotmc.org/resources/ultimate-antibot-%E2%9A%A1-firewall-anti-vpn-%E2%9A%A1-bungeecord-spigot-velocity-700-servers.93439/) | 反压测插件 | 高效防火墙与反VPN插件，支持Bungeecord、Spigot及Velocity，智能检测并抵御快速与慢速登录攻击、Ping攻击等，可自定义配置，含智能过滤与验证系统。 | 免费🟢 |
 | [nAntiBot](https://www.nickuc.com/#plugins) | 反压测插件 | 快速安装、多平台支持的反机器人插件，可配置性强，提供准确保护，含云验证、无效包检测、在线验证码及国家屏蔽功能。 | 免费🟢 |
 | [Sonar](https://www.spigotmc.org/resources/sonar.115239/) | 反压测插件 | 一款轻量级、易于使用的反机器人插件，支持多种平台，能有效阻止各类机器人攻击。它通过分析玩家连接服务器前的行为来拦截恶意流量，确保验证过程既快速又隐形，保护服务器免受大量垃圾机器人攻击。 | 免费🟢 |
