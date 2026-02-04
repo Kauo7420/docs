@@ -63,7 +63,13 @@ export default defineThemeConfig({
         type: 'doc',
         dir: 'guide',
         title: '文档',
-        sidebar: 'auto', // 自动生成导航结构
+        sidebar: [
+          {
+            text: '文档',
+            prefix: '/guide',
+            icon: 'ep:guide', // Iconify 图标
+          },
+        ],
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
