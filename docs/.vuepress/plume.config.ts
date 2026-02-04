@@ -59,30 +59,41 @@ export default defineThemeConfig({
 
   navbar,
   collections: [ 
-    {
-      type: 'doc',
-      dir: 'guide',
-      title: '指南',
-      sidebar: 'auto', // 自动生成导航结构
-      sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
-      meta: {
-        tags: true, // 是否显示标签
-        /**
-         * 是否显示创建时间，或设置时间格式
-         * - 'short': 显示为 `2022-01-01`，默认
-         * - 'long': 显示为 `2022-01-01 00:00:00`
-         */
-        createTime: true, // boolean | 'short' | 'long'
-        readingTime: true, // 是否显示阅读时间估算
-        wordCount: true, // 是否显示字数统计
-      },
-      autoFrontmatter: {
-        title: true, // 自动生成标题
-        createTime: true, // 自动生成创建时间
-        permalink: true, // 自动生成永久链接
-        transform: (data, context, locale) => { // 自定义转换
-          data.foo ??= 'foo'
-          return data
+      {
+        type: 'doc',
+        dir: 'guide',
+        title: '文档',
+        sidebar: 'auto', // 自动生成导航结构
+        sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
+        editLink: true,
+        lastUpdated: true,
+        contributors: true,
+        changelog: {
+          maxCount: 10, // 最多显示 10 条
+          repoUrl: 'https://github.com/Kauo7420/docs', // 仓库地址
+          commitUrlPattern: ':repo/commit/:hash',
+          issueUrlPattern: ':repo/issues/:issue',
+          tagUrlPattern: ':repo/releases/tag/:tag',
+        },
+        plugins: { git: true },
+        meta: {
+          tags: true, // 是否显示标签
+          /**
+           * 是否显示创建时间，或设置时间格式
+           * - 'short': 显示为 `2022-01-01`，默认
+           * - 'long': 显示为 `2022-01-01 00:00:00`
+           */
+          createTime: true, // boolean | 'short' | 'long'
+          readingTime: true, // 是否显示阅读时间估算
+          wordCount: true, // 是否显示字数统计
+        },
+        autoFrontmatter: {
+          title: true, // 自动生成标题
+          createTime: true, // 自动生成创建时间
+          permalink: true, // 自动生成永久链接
+          transform: (data, context, locale) => { // 自定义转换
+            data.foo ??= 'foo'
+            return data
         }
       }
     },
