@@ -93,7 +93,7 @@ export default defineThemeConfig({
       exclude: ['**/*.snippet.md'] // 排除代码片段文件
       profile: {
           avatar: '/avatar.jpg', // 头像路径
-          name: '张三', // 显示名称
+          name: '卡沃Kauo', // 显示名称
           description: '个人简介', // 简介文本
           circle: true, // 圆形头像
           location: '广州', // 所在地
