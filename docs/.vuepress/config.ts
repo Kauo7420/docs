@@ -182,7 +182,9 @@ export default defineUserConfig({
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
-        contributors: true,
+        contributors: {
+          mode: 'block',
+        },
         changelog: {
           maxCount: 10, // 最多显示 10 条
           repoUrl: 'https://github.com/Kauo7420/docs', // 仓库地址

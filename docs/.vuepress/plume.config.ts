@@ -48,14 +48,14 @@ export default defineThemeConfig({
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
-  // profile: {
-    // avatar: 'https://theme-plume.vuejs.press/plume.png',
-    // name: 'My Vuepress Site',
-    // description: 'My Vuepress Site Description',
-    // circle: true,
-    // location: '',
-    // organization: '',
-  // },
+  profile: {
+    avatar: '/avatar.png',
+    name: 'Kauo7420',
+    description: '体温36.5°，但人生恒温-7°C',
+    circle: true,
+    location: '湖南',
+    organization: '学生',
+  },
 
   navbar,
   collections: [ 
@@ -67,7 +67,9 @@ export default defineThemeConfig({
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
-        contributors: true,
+        contributors: {
+          mode: 'block',
+        },
         changelog: {
           maxCount: 10, // 最多显示 10 条
           repoUrl: 'https://github.com/Kauo7420/docs', // 仓库地址
