@@ -17,7 +17,7 @@ import navbar from './navbar.ts'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/favicon.png', // 站点 Logo
 
   appearance: true,  // 配置 深色模式
 
