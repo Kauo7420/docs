@@ -41,20 +41,20 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: 'CC-BY-SA-4.0',
+    copyright: 'CC-BY-NC-4.0',
   },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
-  profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'My Vuepress Site',
-    description: 'My Vuepress Site Description',
+  // profile: {
+    // avatar: 'https://theme-plume.vuejs.press/plume.png',
+    // name: 'My Vuepress Site',
+    // description: 'My Vuepress Site Description',
     // circle: true,
     // location: '',
     // organization: '',
-  },
+  // },
 
   navbar,
   collections: [ 
