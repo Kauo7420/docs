@@ -182,15 +182,7 @@ export default defineUserConfig({
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
-        contributors: {
-          mode: 'block',
-          info: [
-            {
-              username: 'Kauo7420', // github username
-              alias: ['Kauo7420'], // 别名
-            } 
-          ],
-        },
+        contributors: true,
         changelog: {
           maxCount: 10, // 最多显示 10 条
           repoUrl: 'https://github.com/Kauo7420/docs', // 仓库地址
