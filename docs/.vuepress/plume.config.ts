@@ -49,7 +49,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: '/avatar.png',
+    avatar: '/avatar.jpg',
     name: 'Kauo7420',
     description: '体温36.5°，但人生恒温-7°C',
     circle: true,
