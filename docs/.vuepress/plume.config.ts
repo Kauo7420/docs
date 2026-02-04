@@ -41,21 +41,21 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume<br>部分内容及结果均来自于网络，如有侵权请联系删除</a>',
+    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a><br>部分内容及结果均来自于网络，如有侵权请联系删除',
     copyright: 'CC-BY-NC-ND-4.0 © 2026 Kauo7420',
   },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
-  profile: {
-    avatar: '/avatar.jpg',
-    name: 'Kauo7420',
-    description: '体温36.5°，但人生恒温-7°C',
-    circle: true,
-    location: '湖南',
-    organization: '学生',
-  },
+  // profile: {
+  //   avatar: '/avatar.jpg',
+  //   name: 'Kauo7420',
+  //   description: '体温36.5°，但人生恒温-7°C',
+  //   circle: true,
+  //   location: '湖南',
+  //   organization: '学生',
+  // },
 
   navbar,
   collections: [ 
@@ -63,10 +63,7 @@ export default defineThemeConfig({
         type: 'doc',
         dir: 'guide',
         title: '文档',
-        sidebar: [
-          { text: '开始', prefix: 'intro', items: 'auto', icon: 'iconify carbon:home' },
-          { text: '插件教程', prefix: 'plugin', items: 'auto' },
-        ],
+        sidebar: 'auto',
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
