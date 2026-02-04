@@ -215,13 +215,6 @@ export default defineUserConfig({
           }
         }
       },
-      {
-        type: 'post',
-        dir: 'blog',
-        title: '博客',
-        include: ['**/*.md'], // 包含所有 .md 文件
-        exclude: ['**/*.snippet.md'] // 排除代码片段文件
-      },
     ]
   }),
 })
