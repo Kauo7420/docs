@@ -182,7 +182,14 @@ export default defineUserConfig({
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: true,
         lastUpdated: true,
-        contributors: true,
+        contributors: {
+          mode: 'block',
+          info: [
+            {
+              username: 'Kauo7420', // github username
+            } 
+          ],
+        },
         changelog: true,
         plugins: {
           // 如果您在此处直接声明为 true，则表示开发环境和生产环境都启用该功能
