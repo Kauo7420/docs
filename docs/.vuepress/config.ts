@@ -190,7 +190,13 @@ export default defineUserConfig({
             } 
           ],
         },
-        changelog: true,
+        changelog: {
+          maxCount: 10, // 最多显示 10 条
+          repoUrl: 'https://github.com/Kauo7420/docs', // 仓库地址
+          commitUrlPattern: ':repo/commit/:hash',
+          issueUrlPattern: ':repo/issues/:issue',
+          tagUrlPattern: ':repo/releases/tag/:tag',
+        },
         plugins: {
           // 如果您在此处直接声明为 true，则表示开发环境和生产环境都启用该功能
           git: process.env.NODE_ENV === 'production', // 仅在生产环境启用 git 功能
