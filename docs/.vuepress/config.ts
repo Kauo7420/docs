@@ -16,12 +16,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/docs/',
   lang: 'zh-CN',
-  title: '萌新服主指南书',
-  description: '',
+  title: '萌新开服指南',
+  description: '记录一些萌新服主可能会用到的知识点',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'favicon.png' }],
   ],
 
   bundler: viteBundler(),
@@ -32,9 +32,9 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    docsRepo: '',
-    docsDir: 'docs',
-    docsBranch: '',
+    //  docsRepo: '',
+    //  docsDir: 'docs',
+    //  docsBranch: '',
 
     /* 页内信息 */
     //  editLink: true,
@@ -91,6 +91,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
     markdown: {
+      markmap: true,
       abbr: true,         // 启用 abbr 语法  *[label]: content
       annotation: true,   // 启用 annotation 语法  [+label]: content
       pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
@@ -177,10 +178,10 @@ export default defineUserConfig({
       {
         type: 'doc',
         dir: 'guide',
-        title: '文档',
+        title: '指南',
         sidebar: 'auto',
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
-        editLink: true,
+        editLink: false,
         lastUpdated: true,
         contributors: true,
         changelog: {
@@ -206,6 +207,50 @@ export default defineUserConfig({
           title: true, // 自动生成标题
           createTime: true, // 自动生成创建时间
           permalink: 'filepath', // 自动生成永久链接
+          transform: (data, context, locale) => { // 自定义转换
+            data.foo ??= 'foo'
+            return data
+          },
+        }
+      },
+      {
+        type: 'post',
+        dir: 'blog',
+        title: '博客',
+        include: ['**/*.md'], // 包含所有 .md 文件
+        exclude: ['**/*.snippet.md'], // 排除代码片段文件
+        profile: {
+          avatar: '/avatar.jpg', // 头像路径
+          name: 'Kauo7420', // 显示名称
+          description: '体温36.5°，但人生恒温-7°C', // 简介文本
+          circle: true, // 圆形头像
+          location: '湖南', // 所在地
+          organization: '学生', // 所属组织
+          layout: 'right', // 布局位置 left|right
+        },
+        social: [
+        // 使用 iconify name
+          { icon: 'github', link: 'https://github.com/Kauo7420' },
+        ],
+        meta: {
+          tags: true, // 是否显示标签
+          /**
+           * 是否显示创建时间，或设置时间格式
+           * - 'short': 显示为 `2022-01-01`，默认
+           * - 'long': 显示为 `2022-01-01 00:00:00`
+           */
+          createTime: true, // boolean | 'short' | 'long'
+          readingTime: true, // 是否显示阅读时间估算
+          wordCount: true, // 是否显示字数统计
+        },
+        autoFrontmatter: {
+          title: true, // 自动生成标题
+          createTime: true, // 自动生成创建时间
+          permalink: 'filepath', // 自动生成永久链接
+          transform: (data, context, locale) => { // 自定义转换
+            data.foo ??= 'foo'
+            return data
+          },
         }
       },
     ]

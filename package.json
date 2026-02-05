@@ -35,7 +35,11 @@
     "chart.js": "^4.5.1",
     "echarts": "^6.0.0",
     "flowchart.ts": "^3.0.1",
+    "markmap-lib": "^0.18.12",
+    "markmap-toolbar": "^0.18.12",
+    "markmap-view": "^0.18.12",
     "mermaid": "^11.12.2",
+    "pinyin-pro": "^3.28.0",
     "pyodide": "^0.29.3",
     "three": "^0.182.0"
   }

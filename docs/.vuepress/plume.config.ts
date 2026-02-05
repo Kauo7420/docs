@@ -17,7 +17,7 @@ import navbar from './navbar.ts'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: '/favicon.png', // 站点 Logo
+  logo: 'favicon.png', // 站点 Logo
 
   appearance: true,  // 配置 深色模式
 
@@ -62,10 +62,10 @@ export default defineThemeConfig({
       {
         type: 'doc',
         dir: 'guide',
-        title: '文档',
+        title: '指南',
         sidebar: 'auto',
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
-        editLink: true,
+        editLink: false,
         lastUpdated: true,
         contributors: true,
         changelog: {
@@ -91,6 +91,50 @@ export default defineThemeConfig({
           title: true, // 自动生成标题
           createTime: true, // 自动生成创建时间
           permalink: 'filepath', // 自动生成永久链接
+          transform: (data, context, locale) => { // 自定义转换
+            data.foo ??= 'foo'
+            return data
+          },
+      }
+    },
+    {
+      type: 'post',
+      dir: 'blog',
+      title: '博客',
+      include: ['**/*.md'], // 包含所有 .md 文件
+      exclude: ['**/*.snippet.md'], // 排除代码片段文件
+      profile: {
+          avatar: '/avatar.jpg', // 头像路径
+          name: 'Kauo7420', // 显示名称
+          description: '体温36.5°，但人生恒温-7°C', // 简介文本
+          circle: true, // 圆形头像
+          location: '湖南', // 所在地
+          organization: '学生', // 所属组织
+          layout: 'right', // 布局位置 left|right
+      },
+      social: [
+        // 使用 iconify name
+          { icon: 'github', link: 'https://github.com/Kauo7420' },
+        ],
+      meta: {
+        tags: true, // 是否显示标签
+        /**
+         * 是否显示创建时间，或设置时间格式
+         * - 'short': 显示为 `2022-01-01`，默认
+         * - 'long': 显示为 `2022-01-01 00:00:00`
+         */
+        createTime: true, // boolean | 'short' | 'long'
+        readingTime: true, // 是否显示阅读时间估算
+        wordCount: true, // 是否显示字数统计
+      },
+        autoFrontmatter: {
+          title: true, // 自动生成标题
+          createTime: true, // 自动生成创建时间
+          permalink: 'filepath', // 自动生成永久链接
+          transform: (data, context, locale) => { // 自定义转换
+            data.foo ??= 'foo'
+            return data
+        },
       }
     },
   ]
