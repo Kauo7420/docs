@@ -146,7 +146,7 @@ export default defineUserConfig({
     comment: {
       provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
       comment: true,
-      repo: 'Kauo7420/docs',
+      repo: 'Kauo7420/MineDocs',
       repoId: 'R_kgDORHt8zA',
       category: 'General',
       categoryId: 'DIC_kwDORHt8zM4C13MR',
