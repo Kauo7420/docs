@@ -8,7 +8,7 @@ config:
   -
     type: doc-hero
     hero:
-      name: 萌新开服指南
+      name: 小白开服指南
       text: Setup Your Server
       tagline: 独属于新手服主的一站式教程资源中心
       image: /favicon.png
@@ -16,11 +16,11 @@ config:
         -
           theme: brand
           text: 快速开始 →
-          link: /guide/intro/
+          link: /docs/guide/intro/
         -
           theme: alt
           text: Github
-          link: https://github.com/Kauo7420/docs
+          link: https://github.com/Kauo7420/MineDocs
   -
     type: features
     features:

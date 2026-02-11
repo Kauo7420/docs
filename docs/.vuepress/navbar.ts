@@ -8,7 +8,7 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   { text: '首页', link: '/', icon: 'iconify carbon:home' },
-  { text: '文档', link: '/guide/intro/', icon: 'iconify material-symbols:docs' },
-  { text: '博客', link: '/blog/', icon: 'ri:blogger-fill' },
+  { text: '文档', link: '/docs/guide/intro/', icon: 'iconify material-symbols:docs', activeMatch:'/docs/' },
+  { text: '博客', link: '/blog/', icon: 'ri:blogger-fill', badge: '新', activeMatch:'/blog/' },
   { text: '水友群', link: 'https://qm.qq.com/q/x0DtYuNcTC', icon: 'iconify mingcute:qq-fill' },
 ])
