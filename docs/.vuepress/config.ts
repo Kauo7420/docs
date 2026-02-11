@@ -195,7 +195,9 @@ export default defineUserConfig({
           issueUrlPattern: ':repo/issues/:issue',
           tagUrlPattern: ':repo/releases/tag/:tag',
         },
-        plugins: { git: true },
+        plugins: {
+          git: process.env.NODE_ENV === 'production'
+        },
         meta: {
           tags: true, // 是否显示标签
           /**
