@@ -1,5 +1,11 @@
 # MCdocs
 
+<center>
+
+[中文版本](README.zh-CN.md) | [Deutsche Version](README.de.md)
+
+</center>
+
 The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
 
 ## Install
