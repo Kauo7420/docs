@@ -179,11 +179,7 @@ export default defineUserConfig({
         type: 'doc',
         dir: 'docs',
         title: '文档',
-        sidebar: [
-          { text: '开始起步', prefix: 'guide', items: 'auto' },
-          { text: '基础部分', prefix: 'basic', items: 'auto' },
-          { text: '附录', prefix: 'appendix', items: 'auto' },
-        ],
+        sidebar: 'auto',
         sidebarCollapsed: undefined, // 折叠状态：true-折叠 false-展开
         editLink: false,
         lastUpdated: true,
